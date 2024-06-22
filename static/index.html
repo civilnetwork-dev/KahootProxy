@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Enter Game PIN - Kahoot!</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="icon" type="image/x-icon" href="https://assets-cdn.kahoot.it/controller/v2/favicon.ico">
+    </head>
+
+    <body>
+        <div class="container" data-container>
+            <div class="primary-container" data-primary-container>
+                <div class="theme-container" data-theme-container>
+                    <div class="square" data-square></div>
+                    <div class="circle" data-circle></div>
+                    <div class="menu" data-menu>
+                        <div class="top-right" data-top-right>
+                            <div class="language-picker" data-language-picker>
+                                <button data-language-picker-button class="language-picker-button">
+                                    <span data-language-picker-button-span>EN</span>
+                                    <img src="https://assets-cdn.kahoot.it/controller/v2/assets/language-picker-black-cca293f9.svg" alt="" data-language-picker-button-image>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="center-form" data-center-form>
+                            <div class="logo" data-logo>
+                                <div class="image" data-logo-image></div>
+                            </div>
+                            <form data-center-form-element>
+                                <input class="game-pin" placeholder="Game PIN" data-game-pin>
+                                <button data-enter-button class="enter-button" type="submit">Enter</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+        <script src="./sw.js"></script>
+        <script src="./uv/uv.bundle.js"></script>
+        <script src="./uv/uv.config.js"></script>
+    </body>
+</html>
